@@ -18,14 +18,14 @@ a:hover {
     cursor: pointer;
 }
 
-/*#page-loading-blocs-notifaction {
+#page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}*/
+   /* background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;*/
+}
 
 .bloc {
     width: 100%;
@@ -535,7 +535,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -750,7 +750,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(31, 28, 19, 0.96);
     padding: 40px 40px 40px 40px;
 }
 
