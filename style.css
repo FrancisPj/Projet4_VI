@@ -713,8 +713,8 @@ h2 {
 h3 {
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 800;
-    color: white;
+    font-weight: 700;
+    color: #333 !important;
 }
 
 .med-width-whitespace {
