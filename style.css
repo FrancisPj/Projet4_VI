@@ -23,7 +23,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-   /* background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;*/
+    /* background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;*/
 }
 
 .bloc {
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
-/*    background: url("img/texture-paper-min.png");*/
+    /*    background: url("img/texture-paper-min.png");*/
     background-size: 280px 280px;
 }
 
@@ -573,7 +573,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
-    width: 100% \9;
+    width: 100%;
 }
 
 .lightbox-caption {
@@ -850,13 +850,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -874,10 +874,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-   /* .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }*/
+    /* .bloc {
+         padding-left: constant(safe-area-inset-left);
+         padding-right: constant(safe-area-inset-right);
+     }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
