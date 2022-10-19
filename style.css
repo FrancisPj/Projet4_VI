@@ -556,7 +556,7 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 .format-image{
-    width: 100%;
+    width:100%;
     height: auto;
 }
 #lightbox-modal {
