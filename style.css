@@ -555,10 +555,7 @@ a[data-lightbox]:hover img {
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
-.format-image{
-    width:100%;
-    height: auto;
-}
+
 #lightbox-modal {
     display: flex;
     align-items: center;
@@ -573,8 +570,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
-    width: 100%;
-}
+    }
 
 .lightbox-caption {
     padding: 20px;
