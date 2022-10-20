@@ -303,6 +303,8 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height:40px;
+    width:217px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -311,6 +313,7 @@ a:hover {
 
 .nav-center .navbar-brand img {
     margin: 0;
+
 }
 
 .navbar .nav {
@@ -634,6 +637,8 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
+
+
 
 .col-sm-12 .format-image{
     width: 100px;
