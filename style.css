@@ -23,8 +23,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    /* background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;*/
-}
+ }
 
 .bloc {
     width: 100%;
@@ -90,8 +89,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    /*    background: url("img/texture-paper-min.png");*/
-    background-size: 280px 280px;
+      background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -692,7 +690,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -711,7 +709,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -728,7 +726,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0 0 0 #000000;
 }
 
@@ -819,7 +817,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.webp");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
@@ -827,11 +825,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/agence-la-panthere.webp");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/image-de-presentation-1.webp");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -881,22 +879,12 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    /* .bloc {
-         padding-left: constant(safe-area-inset-left);
-         padding-right: constant(safe-area-inset-right);
-     }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    /*.bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }*/
-}
+  }
 
 @media (max-width: 767px) {
     .page-container {
